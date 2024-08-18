@@ -2,7 +2,7 @@
 This repository provides an original implementation of paper `Is ChatGPT Good at Evaluating Data? Investigating Large Language Models as DataAgent`.
 
 <p align="center">
-  <img src="./assets/framework.png" width="600">
+  <img src="./assets/framework.png" width="1200">
 </p>
 
 ## Fundation Models
