@@ -5,11 +5,11 @@ This repository provides an original implementation of paper `Is ChatGPT Good at
 
 
 <p align="center">
-  <img src="./assets/framework.png" width="600">
+  <img src="./assets/framework.png" width="1000">
 </p>
 
 
-![Image Title](./assets/framework_v4.pdf){width=65%}
+
 
 ## Fundation Models
 |   Model  | Link |
