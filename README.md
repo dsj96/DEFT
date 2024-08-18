@@ -1,9 +1,7 @@
 # Is ChatGPT Good at Evaluating Data? Investigating Large Language Models as DataAgent
 This repository provides an original implementation of paper `Is ChatGPT Good at Evaluating Data? Investigating Large Language Models as DataAgent`.
 
-<p align="center">
-  <img src="./assets/framework.png" width="1200">
-</p>
+![Alt](https://https://github.com/dsj96/DataAgent/edit/main/framework_v4.pdf =160x)
 
 ## Fundation Models
 |   Model  | Link |
