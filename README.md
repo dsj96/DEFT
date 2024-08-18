@@ -25,4 +25,7 @@ In this paper, we propose **DataAgent**, a comprehensive data evaluation framewo
 
 ## Acknowledgement
 For training code, we use the code from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
-For 
+
+For evaluating conversational benchmarks (MT-Bench and AlpacaEval), we use the code from [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness).
+
+For evaluating traditional LLM benchmarks (ARC, HellaSwag, MMLU and TruthfulQA), we use the code from [FastChat](https://github.com/lm-sys/FastChat) and [alpaca_eval](https://github.com/tatsu-lab/alpaca_eval).
