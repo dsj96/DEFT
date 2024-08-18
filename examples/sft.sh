@@ -1,8 +1,8 @@
-# PUT IN LLAMA_FACTORY DICTIONARY
+# PUT IN LLAMA_FACTORY DIRECTORY
 dataset_tuple=('YOUR_DATASET_NAME')
 for dataset in "${dataset_tuple[@]}"
 do
-    base_model=llama-13b-hf
+    base_model=llama2-13b-hf
     template=vicuna
     num_train_epochs=6.0
     export CUDA_VISIABLE_DEVICES='0,1,2,3,4,5,6,7'
