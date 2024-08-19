@@ -1,4 +1,7 @@
 # Is ChatGPT Good at Evaluating Data? Investigating Large Language Models as DataAgent
+
+[![GitHub Code License](https://img.shields.io/github/license/hiyouga/LLaMA-Factory)](LICENSE)
+
 This repository provides an original implementation of paper `Is ChatGPT Good at Evaluating Data? Investigating Large Language Models as DataAgent`.
 
 <p align="center">
