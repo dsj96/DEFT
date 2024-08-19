@@ -9,8 +9,8 @@ from breadth import createBreadthPrompt
 import pdb
 from tqdm import tqdm
 
-# file_path = '/userhome/dsj/data/alpaca52k/alpaca_data.json' # https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json
-file_path = '/userhome/dsj/WizardLM/Evol_Instruct/evol_instruction/alpaca_data_evol_3.json'
+
+file_path = './Evol/evol_instruction/alpaca_data_evol_3.json'
 epoch=4
 output_file_path = f'alpaca_data_evol_{epoch}.json'
 processed_dir = "./processed_data/"
@@ -60,7 +60,7 @@ if len(all_objs) > num_samples_to_evol:
         item['index'] = random_list[index]
         add_index_all_objs.append(item)
     all_objs = add_index_all_objs
-    # 将列表存储为 JSON 文件
+
     with open(processed_dir+'add_index_all_objs.json', 'w') as file:
         json.dump(all_objs, file)
 else:
