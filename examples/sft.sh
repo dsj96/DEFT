@@ -1,5 +1,5 @@
 # PUT IN LLAMA_FACTORY DIRECTORY
-dataset_tuple=('YOUR_DATASET_NAME')
+dataset_tuple=('YOUR_DATASET_NAME') # same as https://github.com/hiyouga/LLaMA-Factory/blob/v0.7.1/data/dataset_info.json
 for dataset in "${dataset_tuple[@]}"
 do
     base_model=llama2-13b-hf
