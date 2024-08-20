@@ -12,9 +12,12 @@ This repository provides an original implementation of paper `Is ChatGPT Good at
 ## Overview
 In this paper, we propose **DataAgent**, a comprehensive data evaluation framework, to evaluate data from **complexity**, **quality**, **knowledge** and **diversity** perspective for instruction fine-turning (IFT).
 
-We will release data and checkpoints later.
+We will release checkpoints later.
 
-Loading and checking the Datasets:
+### Seed Dataset
+We provide the [seed dataset](https://github.com/dsj96/DataAgent/tree/main/data/RankGPT)
+
+### Loading and Checking the Datasets:
 ```python
 import json
 def _load_data(data_path: str) -> None:
