@@ -36,8 +36,7 @@ except:
 raw_dataset = load_from_disk(sub_share_gpt_arrow)
 
 
-dsj=model[0].named_parameters()
-print(next(dsj)[1].dtype)
+
 
 
 
