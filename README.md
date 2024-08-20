@@ -21,7 +21,7 @@ In this paper, we propose **DataAgent**, a comprehensive data evaluation framewo
 * Ensemble: examples/select.sh
 
 ### Evol-Ranking Dataset
-We provide dataset in `/data/RankGPT` for the first distillation.
+We provide the dataset in `/data/RankGPT` for the first distillation.
 
 ### Loading and Checking the Datasets:
 ```python
