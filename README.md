@@ -19,7 +19,7 @@ In this paper, we propose **DataAgent**, a comprehensive data evaluation framewo
 * Distllation: examples/comp_qual_distllation.sh
 * Refine: src/complexity_quality_refine.ipynb
 * Embedding: examples/get_emb.sh
-* Knowledge (obtain the knowledge score): src/detect_ds3.py
+* Knowledge (obtain the knowledge score): examples/get_knowledge.sh
 * Ensemble: examples/select.sh
 
 ### Evol-Ranking Dataset
