@@ -12,13 +12,13 @@ from functools import partial
 
 from deita.selection.embedder.conversation import get_conv_template
 
-sub_share_gpt_arrow = '/userhome/dsj/data/deita_sota_pool/deita_sota_pool_305263_token_4096_arrow'
+sub_share_gpt_arrow = '../data/deita_sota_pool/deita_sota_pool_305263_token_4096_arrow'
 conv_template = "vicuna_v1.1" # vicuna_v1.1
 only_answer = False # False
 max_length = 4096 # 2048
-# device_ids = [0, 1]  # GPU设备ID列表
-model_path = '/userhome/dsj/pre_trained_model/sentence-transformers-e5-large-v2'
-output_path = '/userhome/dsj/data/deita_sota_pool/emb' + '/' +  model_path.split('/')[-1]
+# device_ids = [0, 1]
+model_path = '../pre_trained_model/sentence-transformers-e5-large-v2'
+output_path = '../data/deita_sota_pool/emb' + '/' +  model_path.split('/')[-1]
 print(output_path)
 
 if not os.path.exists(output_path):
