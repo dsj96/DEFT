@@ -9,10 +9,12 @@ This repository provides an original implementation of paper `Is ChatGPT Good at
   <img src="./assets/framework.png" width="1000">
 </p>
 
+We will release checkpoints later.
+
 ## Overview
 In this paper, we propose **DataAgent**, a comprehensive data evaluation framework, to evaluate data from **complexity**, **quality**, **knowledge** and **diversity** perspective for instruction fine-turning (IFT).
 
-We will release checkpoints later.
+
 
  Evol-Instruction and Evol-Response [reference code](https://github.com/dsj96/DataAgent/blob/main/data/Evol/main.py).
 
