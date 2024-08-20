@@ -15,8 +15,7 @@ We will release checkpoints later.
 In this paper, we propose **DataAgent**, a comprehensive data evaluation framework, to evaluate data from **complexity**, **quality**, **knowledge** and **diversity** perspective for instruction fine-turning (IFT).
 
 
-
- Evol-Instruction and Evol-Response [reference code](https://github.com/dsj96/DataAgent/blob/main/data/Evol/main.py).
+* Evol-Instruction and Evol-Response [reference code](https://github.com/dsj96/DataAgent/blob/main/data/Evol/main.py).
 
 ### Seed Dataset
 We provide the [seed dataset](https://github.com/dsj96/DataAgent/tree/main/data/RankGPT)
