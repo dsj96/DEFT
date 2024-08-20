@@ -2,8 +2,8 @@ import openai
 import time
 
 # openai.api_key = 'your api key'
-openai.api_base = "https://api.nextapi.fun"# "https://api.nextapi.fun/openai/v1"
-openai.api_key = "ak-B2lVViwBCmPMH1vjGAK461BJogrixdgfQf1nx8IS1rJjXy2V"
+
+
 
 def get_oai_completion(history):
 
