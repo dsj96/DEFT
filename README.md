@@ -14,6 +14,26 @@ In this paper, we propose **DataAgent**, a comprehensive data evaluation framewo
 
 We will release data and checkpoints later.
 
+Loading and checking the Datasets:
+```python
+import json
+def _load_data(data_path: str) -> None:
+    """
+    Load data from data_path.
+    
+    data_path: str - path to json data file.
+    """
+    try:
+        with open(data_path, "r") as f:
+            data = json.load(f)
+    except json.JSONDecodeError:
+        with open(data_path, "r") as f:
+            data = [json.loads(line) for line in f]
+    return data
+
+ data = _load_data(data_path)
+```
+
 
 ## Fundation Models
 |   Model  | Link |
