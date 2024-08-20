@@ -11,7 +11,7 @@ stage=_stage_0_deberta-v3-base
 my_tuple=("rank_net") # "pointwise_rmse" "pointwise_bce" "list_net" "lambda_loss"
 for loss in "${my_tuple[@]}"
 do
-    accelerate launch --num_processes 8 --gpu_ids $gpu_ids  --config_file ./deepspeed/default_config_8_fp32.yaml  comp_qual_distillation.py \
+    accelerate launch --num_processes 8 --gpu_ids $gpu_ids  --config_file ./deepspeed/default_config_8_fp32.yaml  src/comp_qual_distillation.py \
     --model ./pre_trained_model/$model \
     --loss $loss \
     --data  ./data/RankGPT/$stage/$data.json \
