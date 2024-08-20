@@ -16,7 +16,8 @@ In this paper, we propose **DataAgent**, a comprehensive data evaluation framewo
 
 
 * Evol-Instruction and Evol-Response [reference code](https://github.com/dsj96/DataAgent/blob/main/data/Evol/main.py).
-* [distllation](https://github.com/dsj96/DataAgent/blob/main/examples/comp_qual_distllation.sh)
+* [Distllation](https://github.com/dsj96/DataAgent/blob/main/examples/comp_qual_distllation.sh)
+* [Complexity Refine](https://github.com/dsj96/DataAgent/blob/main/src/complexity_refine.ipynb)
 
 ### Seed Dataset
 We provide the [seed dataset](https://github.com/dsj96/DataAgent/tree/main/data/RankGPT)
