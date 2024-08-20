@@ -16,7 +16,7 @@ In this paper, we propose **DataAgent**, a comprehensive data evaluation framewo
 
 
 * Evol-Instruction and Evol-Response: data/Evol/main.py
-* Distllation: comp_qual_distllation.sh
+* Distllation: examples/comp_qual_distllation.sh
 * Refine: src/complexity_quality_refine.ipynb
 * Ensemble: examples/select.sh
 
