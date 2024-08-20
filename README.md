@@ -14,6 +14,8 @@ In this paper, we propose **DataAgent**, a comprehensive data evaluation framewo
 
 We will release checkpoints later.
 
+ Evol-Instruction and Evol-Response [reference code](https://github.com/dsj96/DataAgent/blob/main/data/Evol/main.py).
+
 ### Seed Dataset
 We provide the [seed dataset](https://github.com/dsj96/DataAgent/tree/main/data/RankGPT)
 
