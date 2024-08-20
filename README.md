@@ -15,13 +15,13 @@ We will release checkpoints later.
 In this paper, we propose **DataAgent**, a comprehensive data evaluation framework, to evaluate data from **complexity**, **quality**, **knowledge** and **diversity** perspective for instruction fine-turning (IFT).
 
 
-* Evol-Instruction and Evol-Response [reference code](https://github.com/dsj96/DataAgent/blob/main/data/Evol/main.py).
-* [Distllation](https://github.com/dsj96/DataAgent/blob/main/examples/comp_qual_distllation.sh)
-* [Refine](https://github.com/dsj96/DataAgent/blob/main/src/complexity_quality_refine.ipynb)
-* [Ensemble](https://github.com/dsj96/DataAgent/blob/main/examples/select.sh)
+* Evol-Instruction and Evol-Response: data/Evol/main.py
+* Distllation: comp_qual_distllation.sh
+* Refine: src/complexity_quality_refine.ipynb
+* Ensemble: examples/select.sh
 
-### Seed Dataset
-We provide the [seed dataset](https://github.com/dsj96/DataAgent/tree/main/data/RankGPT)
+### Evol-Ranking Dataset
+We provide dataset in `/data/RankGPT` for the first distillation.
 
 ### Loading and Checking the Datasets:
 ```python
