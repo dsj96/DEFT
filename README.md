@@ -12,7 +12,7 @@ This repository provides an original implementation of paper `DEFT: Data-Efficie
 We will release checkpoints later.
 
 ## Overview
-In this paper, we propose **DataAgent**, a comprehensive data evaluation framework, to evaluate data from **complexity**, **quality**, **knowledge** and **diversity** perspective for instruction fine-turning (IFT).
+In this paper, we propose **DEFT (Data-Efficient Fine-Tuning)**, a comprehensive data evaluation framework, to evaluate data from **complexity**, **quality**, **knowledge** and **diversity** perspective for instruction fine-turning (IFT).
 
 
 * Evol-Instruction and Evol-Response: data/Evol/main.py
