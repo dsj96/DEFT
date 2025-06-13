@@ -6,7 +6,7 @@
 This repository provides an original implementation of paper `DEFT: Data-Efficient Fine-Tuning Through Multi-Dimensional Data Selection`.
 
 <p align="center">
-  <img src="./assets/framework.png" width="1000">
+  <img src="framework.png" width="1000">
 </p>
 
 We will release checkpoints later.
