@@ -47,12 +47,12 @@ def _load_data(data_path: str) -> None:
 
 
 ## Fundation Models
-|   Model  | Link | Seletc SFT Data | 
-|:--------|:--------:| :--------:| 
-| LLaMA1-13B | [yahma/llama-13b-hf](https://huggingface.co/yahma/llama-13b-hf) |  [llama-13b-hf_305263_6000_0.9_20](https://huggingface.co/datasets/daishaojie/llama-13b-hf_305263_6000_0.9_20) | 
-|  LLaMA2-13B  | [meta-llama/Llama-2-13b-hf](https://huggingface.co/meta-llama/Llama-2-13b-hf) | [llama2-13b-hf_305263_6000_0.9_20](https://huggingface.co/datasets/daishaojie/llama2-13b-hf_305263_6000_0.9_20) | 
-| Llama-3.1-8B | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B)| [Meta-Llama-3.1-8B_305263_6000_0.9_20](https://huggingface.co/datasets/daishaojie/Meta-Llama-3.1-8B_305263_6000_0.9_20) | 
-| Qwen2.5-7B | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B)| [Qwen2.5-7B_305263_6000_0.9_20](https://huggingface.co/datasets/daishaojie/Qwen2.5-7B_305263_6000_0.9_20) |
+|   Base Model  | Link | Selected Data |  SFT Model |
+|:--------|:--------:| :--------:| :--------:| 
+| LLaMA1-13B | [yahma/llama-13b-hf](https://huggingface.co/yahma/llama-13b-hf) |  [llama-13b-hf_305263_6000_0.9_20](https://huggingface.co/datasets/daishaojie/llama-13b-hf_305263_6000_0.9_20) | - |
+|  LLaMA2-13B  | [meta-llama/Llama-2-13b-hf](https://huggingface.co/meta-llama/Llama-2-13b-hf) | [llama2-13b-hf_305263_6000_0.9_20](https://huggingface.co/datasets/daishaojie/llama2-13b-hf_305263_6000_0.9_20) | - |
+| Llama-3.1-8B | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B)| [Meta-Llama-3.1-8B_305263_6000_0.9_20](https://huggingface.co/datasets/daishaojie/Meta-Llama-3.1-8B_305263_6000_0.9_20) | - |
+| Qwen2.5-7B | [Qwen/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B)| [Qwen2.5-7B_305263_6000_0.9_20](https://huggingface.co/datasets/daishaojie/Qwen2.5-7B_305263_6000_0.9_20) | [Qwen2.5-7B_305263_6000_0.9_20](https://huggingface.co/daishaojie/Qwen2.5-7B_data) |
 
 ## Data Pool
 |   Data Size  | Link |
