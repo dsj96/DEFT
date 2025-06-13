@@ -51,12 +51,12 @@ def _load_data(data_path: str) -> None:
 |:--------|:--------:|
 | LLaMA1-13B | [yahma/llama-13b-hf](https://huggingface.co/yahma/llama-13b-hf) |
 |  LLaMA2-13B  | [meta-llama/Llama-2-13b-hf](https://huggingface.co/meta-llama/Llama-2-13b-hf) |
-| Mistral-7B-v0.1 | [mistralai/Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)|
+| Llama-3.1-8B | [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B)|
 
 ## Data Pool
 |   Data Size  | Link |
 |:--------|:--------:|
-| 300K | [link](https://huggingface.co/datasets/AndrewZeng/deita_sota_pool) |
+| 300K (ShareGPT, UltraChat, WizardLM)| [link](https://huggingface.co/datasets/AndrewZeng/deita_sota_pool) |
 
 
 ## Acknowledgement
